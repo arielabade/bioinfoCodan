@@ -4,6 +4,7 @@
 #Author: Pedro G. Nachtigall (pedronachtigall@gmail.com)
 
 #Olá, meu nome é ariel
+#Sandy e Junior
 
 try:
     from Bio import SeqIO
