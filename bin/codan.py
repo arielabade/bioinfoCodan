@@ -3,6 +3,8 @@
 #CodAn predicts CDS and UTR sequences in Full-Length and partial assembled transcripts from transcriptome data
 #Author: Pedro G. Nachtigall (pedronachtigall@gmail.com)
 
+#Olá, meu nome é ariel
+
 try:
     from Bio import SeqIO
     from Bio.Seq import Seq
