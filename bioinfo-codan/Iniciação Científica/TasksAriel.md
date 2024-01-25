@@ -52,5 +52,8 @@ Keep in mind that the specific details you can find will depend on the availabil
 
 }
 
-### Conhecimento Adquirido
+### Adquirir conhecimento
+
+- [ ] Curso básico de machine learning para entender quais são os modelos disponíveis
+- [ ] Montar algum modelo básico e colocar ele pra rodar
       
