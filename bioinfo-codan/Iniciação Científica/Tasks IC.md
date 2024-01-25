@@ -8,7 +8,7 @@
 
 1. [ ] Fazer makefile do CodAn (evitar ficar gastanddo tempo escrevendo código, rever o vídeo dos makefile com as entradas, saídas etc)
 2. [ ] Entender os formatos de entrada e saídas de dados
-3. [ ] Fazer um git copy no código do CodAn para entender como ele funciona e colocar meus comentários nele
+3. [x] Fazer um git copy no código do CodAn para entender como ele funciona e colocar meus comentários nele
 4. [ ] Agregar o roadmap e aprendizado de máquina do cara que é engenherio de machine learning aqui nesse curso
 #### Prioridade 2
 
