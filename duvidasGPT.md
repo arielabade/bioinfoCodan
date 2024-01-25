@@ -15,6 +15,28 @@ The 3' UTR is located downstream of the stop codon and contains sequences that a
 In summary, the CDS is the coding region of DNA that specifies the amino acid sequence of a protein, while the UTRs are non-coding regions found at the ends of mRNA molecules that play roles in the regulation of gene expression.
 
 
+#### Sobre a avaliação de éxons e íntrons no DNA:
+
+3utr_sequences.fasta e 5utr_sequences.fasta:
+
+Esses arquivos provavelmente contêm sequências das regiões 3'UTR (região não traduzida do 3') e 5'UTR (região não traduzida do 5') de mRNA, respectivamente.
+Sequências nessas regiões geralmente não codificam proteínas, mas são importantes para a regulação da expressão gênica.
+Você pode usar ferramentas de bioinformática para predizer ORFs (open reading frames) nessas sequências e determinar se elas têm o potencial de codificar proteínas.
+ORF_sequences.fasta:
+
+Este arquivo provavelmente contém sequências de open reading frames (ORFs), que são regiões de DNA com o potencial de codificar proteínas.
+Você pode usar ferramentas como BLAST ou GeneMark para analisar essas sequências e identificar regiões codificadoras.
+PEP_sequences.fa:
+
+Este arquivo provavelmente contém sequências de aminoácidos, que são as sequências de proteínas traduzidas a partir das sequências codificadoras de DNA (CDS).
+Pode ser útil comparar essas sequências de proteínas com bancos de dados de proteínas conhecidas usando ferramentas como BLAST para validar se são codificadoras.
+annotation.gtf:
+
+Arquivos de anotação GTF (Gene Transfer Format) geralmente contêm informações sobre a estrutura gênica, incluindo a localização de exons, introns e outras características.
+Pode conter informações sobre regiões codificadoras e não codificadoras.
+Analise as entradas desse arquivo para obter informações sobre a estrutura dos genes, incluindo as regiões codificadoras.
+
+
 #### Tools
 
 - Gene Data Viz: https://www.sanger.ac.uk/tool/artemis//
