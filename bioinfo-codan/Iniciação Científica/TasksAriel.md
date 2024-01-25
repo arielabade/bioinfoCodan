@@ -56,4 +56,5 @@ Keep in mind that the specific details you can find will depend on the availabil
 
 - [ ] Curso básico de machine learning para entender quais são os modelos disponíveis
 - [ ] Montar algum modelo básico e colocar ele pra rodar
+- [ ] Seguir roadmap para ser um machin learning engineer
       
