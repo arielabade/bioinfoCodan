@@ -1,7 +1,7 @@
 # Codan
 
 # Github
--[ ] Por que nas minhas pastas de base de dados aparece uma seta -> e eu não consigo configurar elas depois?
+- [ ] Por que nas minhas pastas de base de dados aparece uma seta -> e eu não consigo configurar elas depois?
 
 # Databases
 
