@@ -1,4 +1,4 @@
-# bioinfo-codan
+# bioinfo-codan (this is not 1% of the iceberg, you should look on branches and folders, its not organized yet, but in the future it will be)
 
 The input is a file of transcripts in the fasta format, with the argument of the model which you wannt to annalyze
 
