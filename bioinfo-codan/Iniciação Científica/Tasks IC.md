@@ -123,8 +123,6 @@ Entender e melhorar códigos existentes, especialmente quando se trata de bioinf
 Lembre-se, a aplicação de aprendizado de máquina a problemas específicos pode exigir ajustes cuidadosos para garantir que os modelos sejam treinados e avaliados corretamente. O entendimento profundo do domínio biológico é fundamental.
 
 
-#### Codan
 
-oi
 
 
