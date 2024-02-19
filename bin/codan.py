@@ -3,8 +3,6 @@
 #CodAn predicts CDS and UTR sequences in Full-Length and partial assembled transcripts from transcriptome data
 #Author: Pedro G. Nachtigall (pedronachtigall@gmail.com)
 
-#Olá, meu nome é ariel
-#Sandy e Junior
 
 try:
     from Bio import SeqIO
@@ -21,23 +19,25 @@ import os
 
 #>>>>Translate ORFs
 def _TranslateORFs_(outF):
+    #$Só é executada se o modelo "FULL" for executado. Tirando isso, não é executtada
     translated = open(outF+"PEP_sequences.fa","w")
-    for record in SeqIO.parse(outF+"ORF_sequences.fasta", "fasta"):
+    for record in SeqIO.parse(outF+"ORF_sequences.fasta", "fasta"): #$Seq.IO facilita a leitura e manipulação de sequeências biológicas
         ID = str(record.id)
-        protein = str(record.seq.translate())
-        translated.write(">"+ID+"\n"+protein+"\n")
+        protein = str(record.seq.translate()) #$Usada para transformar uma sequência de nucleotidios em uma sequencia de aminoacidos
+        translated.write(">"+ID+"\n"+protein+"\n") #$Converte em uma sequência de proteínas
     translated.close()
 
 #>>>>Get Reverse Complement of transcripts for ORF prediction (used in _predict_)
 def _reverse_complement_(transcripts, outF): #MINUS
     minus = open(outF+"minus.fa","w")
     for record in SeqIO.parse(transcripts, "fasta"):
-        sequence = str(record.seq.reverse_complement())
+        sequence = str(record.seq.reverse_complement()) #4Fornece a sequência complementar do translate ORFS
         minus.write(">"+str(record.id)+"\n"+"\n".join([sequence[n:n+100] for n in range(0,len(sequence),100)])+"\n")
-    minus.close()
+    minus.close() #$Grava em um arquivo cujo o nome é "minus" e é alocado temporariamente
 
 #>>>>Read prediction result (used in _retrieveORF_)
 def _readORF_(ORF):
+    #$Lê as sequências CDS e grava o inicio, fim e meio ddo arquivo ORF usando uma expressão regular
     start = []
     stop = []
     cds = []
@@ -53,8 +53,18 @@ def _readORF_(ORF):
             line1 = line.rstrip().split("\t")
             start.append([line1[0], line1[3]])
     a.close()    
-    return cds, stop, start
+    return cds, stop, start #$Armazena em listas
 
+##------
+
+#_readORF_: Esta função lê as sequências CDS, identificando os inícios (start_codon), 
+#os fins (stop_codon) e a região CDS propriamente dita. As informações são armazenadas 
+#em listas start, stop, e cds.
+
+#_readORF_BOTH_: Esta função faz o mesmo que a _readORF_, 
+#mas em vez de usar listas separadas para as regiões CDS, inícios e fins, 
+#ela usa dicionários (start, stop, e cds). Os dicionários são indexados pelo ID do transcrito.
+##------
 def _readORF_BOTH_(ORF):
     start = {}
     stop = {}
@@ -71,7 +81,7 @@ def _readORF_BOTH_(ORF):
             line1 = line.rstrip().split("\t")
             start[line1[0]] = [line1[3], line1[4], line1[5]]
     a.close()    
-    return cds, stop, start
+    return cds, stop, start #Armazena em dicionários
 
 #>>>>Retrieve ORF and UTR sequences from prediction results (used in _codan_)
 def _retrieveORF_PLUS_(transcripts, outF):
@@ -340,7 +350,7 @@ def _codan_PLUS_(transcripts, outF, model, cpu):
     _predict_PLUS_(transcripts, outF, model, cpu)
     print(dt.datetime.now().strftime("%Y-%m-%d %H:%M:%S")+" >>>> retrieving sequences...")
     _retrieveORF_PLUS_(transcripts, outF)
-    if "_full" in model:
+    if "_full" in model: #$ Existe uma diferença entre o modelo real e o que é executado
         _TranslateORFs_(outF)
 
 def _codan_MINUS_(transcripts, outF, model, cpu):
@@ -348,7 +358,7 @@ def _codan_MINUS_(transcripts, outF, model, cpu):
     _predict_MINUS_(transcripts, outF, model, cpu)
     print(dt.datetime.now().strftime("%Y-%m-%d %H:%M:%S")+" >>>> retrieving sequences...")
     _retrieveORF_MINUS_(outF+"minus.fa", outF)
-    if "_full" in model:
+    if "_full" in model: #$ Existe uma diferença entre o modelo real e o que é executado
         _TranslateORFs_(outF)
 
 def _codan_BOTH_(transcripts, outF, model, cpu):
@@ -356,7 +366,7 @@ def _codan_BOTH_(transcripts, outF, model, cpu):
     _predict_BOTH_(transcripts, outF, model, cpu)
     print(dt.datetime.now().strftime("%Y-%m-%d %H:%M:%S")+" >>>> retrieving sequences...")
     _retrieveORF_BOTH_(transcripts, outF+"minus.fa", outF)
-    if "_full" in model:
+    if "_full" in model: #$ Existe uma diferença entre o modelo real e o que é executado
         _TranslateORFs_(outF)
 
 ##>>>>BLAST search
