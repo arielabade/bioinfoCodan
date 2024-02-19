@@ -4,7 +4,7 @@
 - [ ] Por que nas minhas pastas de base de dados aparece uma seta -> e eu não consigo configurar elas depois?
 
 # Databases
--[ ] Quais são as melhores práticas montando uma base de daods utilizada no codan?
+- [ ] Quais são as melhores práticas montando uma base de daods utilizada no codan?
 
 # Machine Learning
 
