@@ -65,6 +65,7 @@ def _readORF_(ORF):
 #mas em vez de usar listas separadas para as regiões CDS, inícios e fins, 
 #ela usa dicionários (start, stop, e cds). Os dicionários são indexados pelo ID do transcrito.
 ##------
+
 def _readORF_BOTH_(ORF):
     start = {}
     stop = {}
@@ -84,6 +85,7 @@ def _readORF_BOTH_(ORF):
     return cds, stop, start #Armazena em dicionários
 
 #>>>>Retrieve ORF and UTR sequences from prediction results (used in _codan_)
+#$ Percorre as sequencias na região positiva e negativa
 def _retrieveORF_PLUS_(transcripts, outF):
     cds, stop, start = _readORF_(outF+"ORFs.gtf")
     record_dictP = SeqIO.index(transcripts, "fasta")
@@ -117,6 +119,18 @@ def _retrieveORF_PLUS_(transcripts, outF):
     print("\tnumber of predictions -> "+str(len(cds)))
     
     os.remove(transcripts+".index")
+
+#Fita Positiva (plus):
+
+#A fita positiva é a cadeia de DNA que é lida na direção 5' para 3'. 
+#Isso significa que a leitura dos nucleotídeos ocorre a partir do extremo 5'
+# (cinco prime) para o extremo 3' (três prime).
+
+
+#Fita Negativa(minus):
+
+#A fita negativa é a cadeia complementar da fita positiva e é lida na direção oposta, 
+#ou seja, da extremidade 3' para a extremidade 5'.
 
 def _retrieveORF_MINUS_(transcripts, outF):
     cds, stop, start = _readORF_(outF+"ORFs.gtf")
