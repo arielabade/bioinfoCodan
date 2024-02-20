@@ -1,1 +1,1 @@
-![byopythondocs][https://biopython.org/wiki/SeqIO]]
+![byopythondocs][https://biopython.org/wiki/SeqIO]
