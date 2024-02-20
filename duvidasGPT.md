@@ -5,7 +5,16 @@
 - Existe alguma relação na organização do arquivo com a predição em si?
 
 ----
+### Por que é importante percorrer a fita nos dois sentidos utilizanndo a função _retrieveOrF_?
 
+Permitir a análise em ambos os sentidos, fita positiva e fita negativa, é importante porque os genes podem estar localizados em ambas as fitas do DNA, dependendo da orientação do gene. Durante a anotação genômica e a identificação de regiões codificantes, é crucial examinar ambas as fitas para garantir que todos os genes sejam corretamente identificados e que as sequências de ORF (Open Reading Frame) sejam extraídas de maneira apropriada.
+
+As regiões codificantes, onde os genes estão presentes, podem estar na fita positiva (na direção 5' para 3') ou na fita negativa (na direção 3' para 5'). Ao percorrer ambas as fitas, as análises garantem que nenhum gene seja negligenciado devido à sua orientação específica no genoma.
+
+Além disso, durante a transcrição, a fita de DNA serve como molde para a síntese de RNA. Como a transcrição ocorre na direção 5' para 3', os genes presentes na fita negativa (complementar) serão transcritos na direção oposta à sua orientação no DNA. Portanto, é importante considerar ambas as fitas ao extrair sequências de ORF, UTR (Untranslated Region) e outras regiões importantes para análise genômica.
+
+Em resumo, abordar ambas as fitas permite uma visão completa e precisa das características genômicas, garantindo que todos os elementos relevantes sejam identificados, independentemente da orientação específica no DNA.
+----
 ### O que são arquivos em formato GTF?
 
 Um arquivo GTF (Gene Transfer Format) é um formato de arquivo usado para representar anotações de genes e outros recursos genômicos. Cada linha em um arquivo GTF representa uma característica genômica, como um gene, transcrição, exon ou CDS (Coding DNA Sequence). Aqui estão as principais especificações de um arquivo GTF:
