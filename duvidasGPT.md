@@ -6,6 +6,44 @@
 
 ----
 
+### O que são arquivos em formato GTF?
+
+Um arquivo GTF (Gene Transfer Format) é um formato de arquivo usado para representar anotações de genes e outros recursos genômicos. Cada linha em um arquivo GTF representa uma característica genômica, como um gene, transcrição, exon ou CDS (Coding DNA Sequence). Aqui estão as principais especificações de um arquivo GTF:
+
+1. **Formato GTF:**
+   - As linhas do arquivo GTF são tabuladas.
+   - Cada linha contém nove campos principais, separados por tabs.
+
+2. **Campos GTF:**
+   - **Seqname:** Nome do cromossomo ou sequência.
+   - **Source:** Fonte da anotação (por exemplo, um programa ou banco de dados que forneceu a anotação).
+   - **Feature:** Tipo da característica genômica (gene, exon, CDS, etc.).
+   - **Start:** Posição de início da característica no cromossomo.
+   - **End:** Posição de término da característica no cromossomo.
+   - **Score:** Um escore numérico associado à característica (pode ser '.' se não houver escore).
+   - **Strand:** Orientação da característica no cromossomo (+ para positivo, - para negativo).
+   - **Frame:** Indica a posição do códon de início em uma transcrição CDS.
+   - **Attribute:** Uma lista de pares chave-valor que fornece informações adicionais sobre a característica.
+
+3. **Exemplo de Linha GTF:**
+   ```
+   1       CodAn   gene        11874   14409   .       +       .       gene_id "gene_id_1"; gene_name "gene_name_1";
+   ```
+
+   Neste exemplo:
+   - `1` é o Seqname.
+   - `CodAn` é a Source.
+   - `gene` é o Feature.
+   - `11874` e `14409` são o Start e o End, respectivamente.
+   - `.` indica que o Score não está disponível.
+   - `+` é a Strand.
+   - `.` indica que o Frame não está disponível.
+   - Os atributos gene_id e gene_name fornecem informações adicionais sobre o gene.
+
+Essas são as especificações básicas de um arquivo GTF. O arquivo GTF é comumente usado para representar dados de anotação genômica em muitos contextos, incluindo análises de RNA-seq e comparações de genomas.
+
+----
+
 ### Sobre a função _readORF(ORF)
 
 No contexto do código fornecido, as linhas que mencionam `line1[0]`, `line1[3]`, `line1[4]`, etc., estão relacionadas à manipulação de linhas em um arquivo GTF (Gene Transfer Format). O formato GTF é comumente usado para armazenar informações sobre anotações genéticas, como locais de genes, exons, CDS (sequências codificantes), etc.
