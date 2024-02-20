@@ -2,6 +2,12 @@
 
 R:
 
+ORFs (Open Reading Frames) são regiões em uma sequência de DNA ou RNA que têm o potencial de serem traduzidas em proteínas. Uma ORF é definida como uma sequência contígua de nucleotídeos que começa com um códon de iniciação (geralmente AUG, que codifica para o aminoácido metionina) e termina com um códon de terminação (UAA, UAG ou UGA). Entre esses códons de iniciação e terminação, a sequência de nucleotídeos é lida em grupos de três (tripletos), chamados códons, e cada códon codifica um aminoácido específico.
+
+Durante a transcrição do DNA para RNA e subsequente tradução do RNA para proteína, uma ORF funcional pode ser identificada e utilizada para produzir uma proteína específica. No entanto, nem todas as ORFs em um genoma são necessariamente traduzidas em proteínas funcionais. Algumas ORFs podem representar sequências não codificantes, enquanto outras podem ter funções regulatórias ou desconhecidas.
+
+A identificação e análise de ORFs são comuns em estudos de genômica e bioinformática, onde os pesquisadores buscam entender a estrutura genômica e a função potencial de diferentes regiões de DNA ou RNA. Essas análises muitas vezes envolvem o uso de ferramentas computacionais para identificar ORFs em sequências genômicas e predizer as possíveis proteínas que podem ser traduzidas a partir dessas sequências.
+
 ------
 
 ### Sobre os formatos de saída e entrada:
