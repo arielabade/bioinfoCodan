@@ -1,3 +1,10 @@
+## Prompts
+
+- Quais ferramentas das bibliotecas específicas foram usadas na função x?
+- Nesse pedaço de código, de ondde que veio o argumento?
+- Existe alguma relação na organização do arquivo com a predição em si?
+
+----
 ### O que são ORF's?
 
 R:
