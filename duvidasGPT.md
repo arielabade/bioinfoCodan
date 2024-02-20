@@ -5,6 +5,42 @@
 - Existe alguma relação na organização do arquivo com a predição em si?
 
 ----
+
+### Sobre a função _readORF(ORF)
+
+No contexto do código fornecido, as linhas que mencionam `line1[0]`, `line1[3]`, `line1[4]`, etc., estão relacionadas à manipulação de linhas em um arquivo GTF (Gene Transfer Format). O formato GTF é comumente usado para armazenar informações sobre anotações genéticas, como locais de genes, exons, CDS (sequências codificantes), etc.
+
+No GTF, cada linha representa uma característica genética (feature) em um genoma. Cada campo na linha é separado por tabulação (`\t`) e contém informações específicas sobre a feature.
+
+Vamos analisar um exemplo de linha GTF:
+
+```
+seqname  source  feature  start  end  score  strand  frame  attributes
+```
+
+- `seqname`: Nome da sequência (cromossomo).
+- `source`: Fonte da anotação.
+- `feature`: Tipo de feature (por exemplo, gene, exon, start_codon, stop_codon).
+- `start`: Posição de início da feature.
+- `end`: Posição de término da feature.
+- `score`: Pontuação (geralmente não usado e preenchido com ponto `.`).
+- `strand`: A orientação da feature (+ para positivo, - para negativo).
+- `frame`: O quadro de leitura para CDS (sequência codificante).
+- `attributes`: Atributos adicionais, geralmente em pares chave-valor.
+
+No código fornecido, as linhas específicas que você mencionou estão relacionadas à leitura e interpretação dessas informações do arquivo GTF. Por exemplo:
+
+```python
+if "\tCDS\t" in line:
+    line1 = line.rstrip().split("\t")
+    cds.append([line1[0], line1[3], line1[4]])
+```
+
+Aqui, se a linha contiver a string "\tCDS\t" (indicando uma feature do tipo CDS), ela divide a linha usando tabulação como delimitador (`split("\t")`), e os valores relevantes (`line1[0]`, `line1[3]`, `line1[4]`) são extraídos e armazenados na lista `cds`. O `line1[0]` seria o nome da sequência (seqname), `line1[3]` seria a posição de início, e `line1[4]` seria a posição de término da CDS.
+
+A linha similar para `start_codon` e `stop_codon` segue a mesma lógica, mas armazena as informações em listas `start` e `stop` respectivamente.
+
+----
 ### O que são ORF's?
 
 R:
