@@ -23,6 +23,8 @@ Classes are the isolated states after they are irreducible.
 
 ### Higher Order Transition Matrix and Equilibrium State
 
+https://www.youtube.com/watch?v=Zo3ieESzr4E&list=PLM8wYQRetTxBkdvBtz-gw8b9lcVkdXQKV&index=3
+
 ## Passo a passo para o algoritmo
 
 1) Rode ele em uma sequência aleatória
