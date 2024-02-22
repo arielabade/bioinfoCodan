@@ -16,7 +16,7 @@ Ex: Existe uma chance de 20% de que amanhã eles vão servir hamburger, tendo em
 ## Passo a passo para o algoritmo
 
 1) Rode ele em uma sequência aleatória
-2) Qual a equação estacionária de ocorrência? (É possível obter isso através de um cálculo com a matriz de transição. Você vai descobrir o resultado correto quando as entradas forem iguais as saídas.
+2) Qual a equação estacionária de ocorrência? (É possível obter isso através de um cálculo com a matriz de transição. Você vai descobrir o resultado correto quando as entradas forem iguais as saídas.) -> precisa aprender as melhores formas de calcular a matriz de transição
 
 OBS: vídeo que ensina a calcular = https://www.youtube.com/watch?v=i3AkTO9HLXo&list=PLM8wYQRetTxBkdvBtz-gw8b9lcVkdXQKV
 
