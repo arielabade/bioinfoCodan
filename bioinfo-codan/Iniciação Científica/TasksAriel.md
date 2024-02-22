@@ -7,6 +7,7 @@
 - [ ] Testar diferentes entradas de dados
 - [ ] Consertar a questão do path global do Codan no linux
 - [ ] Fazer makefile de todas as entradas que eu realizar no Codan (precisa virar um hábito)
+- [ ] Entender como calcular matriz de ransição em HMMs
 
 
 ### Base de Dados
