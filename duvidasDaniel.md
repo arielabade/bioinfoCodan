@@ -4,7 +4,7 @@
 - [x] Por que nas minhas pastas de base de dados aparece uma seta -> e eu não consigo configurar elas depois? R = por que as pastas da base de dados sao muito grandes
 
 # Databases
-- [ ] Quais são as melhores práticas montando uma base de daods utilizada no codan? R = elucidado na reunião  20/02
+- [ ] Quais são as melhores práticas montando uma base de dados utilizada no codan? R = elucidado na reunião  20/02
 
 # Machine Learning
 - [ ] Você acha que é viável mexer no HMM, caso ninguém pegue o plano de trabalho?
