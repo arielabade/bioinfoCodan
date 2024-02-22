@@ -8,6 +8,10 @@ Da mesma forma ocorre com o CodAn. Ele consegue prever zonas codificadoras, que 
 
 "The future state depends only of the state BEFORE. Not the complete sequence before the end state."
 
+## Recurrence, Irreducibility, Classes
+
+
+
 
 Ex: Existe uma chance de 60% de amanhã ser dia de pizza. Portanto, hoje é dia de hamburger.  **É baseado em um sistema de pesos.**
 
