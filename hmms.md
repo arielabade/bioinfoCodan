@@ -20,5 +20,6 @@ Ex: Existe uma chance de 20% de que amanhã eles vão servir hamburger, tendo em
 
 OBS: vídeo que ensina a calcular = https://www.youtube.com/watch?v=i3AkTO9HLXo&list=PLM8wYQRetTxBkdvBtz-gw8b9lcVkdXQKV
 
+3) Se os valores da equação estacionária forem 0.35, 0.21, e 0.43, qual a chance de ser dia de hamburger, pizza ou cachorro quente baseado apenas no dia anterior?
 
 ## How TOPS works?
