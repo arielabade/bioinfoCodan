@@ -21,6 +21,7 @@ Reducebles chains are the opposite of reducible chains. So, you can divide the r
 
 Classes are the isolated states after they are irreducible.
 
+### Higher Order Transition Matrix and Equilibrium State
 
 ## Passo a passo para o algoritmo
 
