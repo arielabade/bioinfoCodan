@@ -8,14 +8,19 @@ Da mesma forma ocorre com o CodAn. Ele consegue prever zonas codificadoras, que 
 
 "The future state depends only of the state BEFORE. Not the complete sequence before the end state."
 
-## Recurrence, Irreducibility, Classes
-
-
-
-
 Ex: Existe uma chance de 60% de amanhã ser dia de pizza. Portanto, hoje é dia de hamburger.  **É baseado em um sistema de pesos.**
 
 Ex: Existe uma chance de 20% de que amanhã eles vão servir hamburger, tendo em vista que hoje eles já serviram hamburger.
+
+
+## Recurrence, Irreducibility, Classes
+
+Irreducible chains are the ones that you can get to any state on the chain by passing through other states.
+
+Reducebles chains are the opposite of reducible chains. So, you can divide the reducible chain is smaller pieces and turn them into irreducible.
+
+Classes are the isolated states after they are irreducible.
+
 
 ## Passo a passo para o algoritmo
 
