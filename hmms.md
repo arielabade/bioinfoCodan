@@ -35,3 +35,13 @@ OBS: vídeo que ensina a calcular = https://www.youtube.com/watch?v=i3AkTO9HLXo&
 3) Se os valores da equação estacionária forem 0.35, 0.21, e 0.43, qual a chance de ser dia de hamburger, pizza ou cachorro quente baseado apenas no dia anterior?
 
 ## How TOPS works?
+
+
+
+### What are HMMs 
+
+Hidden Markov Models (HMMs) não se enquadram diretamente nas categorias tradicionais de classificação ou regressão. Eles são mais frequentemente usados para modelar sequências de dados, onde o objetivo é entender a estrutura subjacente da sequência.
+
+Em um HMM, você tem estados ocultos que evoluem ao longo do tempo, e esses estados emitem observações. A tarefa principal em um HMM é inferir a sequência de estados ocultos que é mais provável, dadas as observações. Portanto, HMMs são comumente usados para problemas de modelagem de sequências, como reconhecimento de padrões em sequências temporais.
+
+Se você precisar rotular ou classificar sequências com base em padrões subjacentes, um HMM pode ser apropriado, mas é uma abordagem diferente da classificação ou regressão tradicionais. O HMM é mais adequado para problemas em que a relação entre os dados pode ser modelada como uma cadeia de estados ocultos.
