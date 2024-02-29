@@ -1,5 +1,7 @@
 https://www.youtube.com/watch?v=AsNTP8Kwu80
 
+OBS: o estudo relacionado a autismo mostra que o uso de decisions tree com rnns quando se trata de avaliar cadeias de DNA é promissor
+
 ## LSTM
 
 LSTM (Long Short-Term Memory) é um tipo de rede neural recorrente (RNN) que foi projetado para superar algumas limitações das RNNs tradicionais, especialmente em lidar com problemas de longo prazo e dependências temporais. As LSTMs foram propostas por Sepp Hochreiter e Jürgen Schmidhuber em 1997.
