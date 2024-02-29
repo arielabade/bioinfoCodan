@@ -48,7 +48,7 @@ A estrutura básica de uma BRNN consiste em duas partes principais:
 
 As saídas dessas duas camadas são geralmente combinadas, por exemplo, concatenando-as ou tirando uma média, para formar a saída final da BRNN. Essa abordagem bidirecional ajuda a capturar padrões de dependências temporais em ambas as direções, melhorando a capacidade da rede de entender o contexto global.
 
-BRNNs são aplicadas em várias tarefas, incluindo o processamento de sequências de texto, reconhecimento de fala, tradução automática, entre outras, onde a compreensão bidirecional do contexto é benéfica.
+
 ---
 
 ## Dificuldades de cada um
