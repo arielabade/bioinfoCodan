@@ -2,6 +2,9 @@ https://www.youtube.com/watch?v=AsNTP8Kwu80
 
 OBS: o estudo relacionado a autismo mostra que o uso de decisions tree com rnns quando se trata de avaliar cadeias de DNA é promissor
 OBS2: e se usar as classificações dos pesos de entrada dos datasets que contém as HMMs como as funções recorrentes das RNNS?
+OBS3: segundo o artigo dos classificadores de autismo, arvores de decisao em conjunto com rnns podem ser um bom caminho para melhorar as métricas de desempenho
+OBS4: e se forem usados os indices usados em HMMs na implementação das RNNS?
+OBS5: LTSM, DNN, OU BRNN?
 
 ## LSTM
 
