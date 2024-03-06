@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Iniciação Científica/TasksAriel.md",
+                "file": "Iniciação Científica/Tasks IC.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Iniciação Científica/TasksAriel.md",
+                "file": "Iniciação Científica/Tasks IC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Iniciação Científica/TasksAriel.md",
+                "file": "Iniciação Científica/Tasks IC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Iniciação Científica/TasksAriel.md"
+                "file": "Iniciação Científica/Tasks IC.md"
               }
             }
           }
@@ -146,8 +146,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "752931e0e6e30200",
+  "active": "ade095c7bfa3925c",
   "lastOpenFiles": [
+    "Iniciação Científica/Tasks IC 1.md",
+    "Iniciação Científica2",
+    "Iniciação Científica/Artigos/Accelerating materials language processing with large language models.md",
+    "Iniciação Científica/Artigos",
+    "Iniciação Científica/Anotações.md",
+    "Iniciação Científica/TasksAriel.md",
     "Iniciação Científica/Tasks IC.md",
     "Iniciação Científica",
     "Untitled"
