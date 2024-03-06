@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Iniciação Científica/Anotações.md",
+                "file": "duvidasDaniel.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Iniciação Científica/Anotações.md",
+                "file": "duvidasDaniel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Iniciação Científica/Anotações.md",
+                "file": "duvidasDaniel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Iniciação Científica/Anotações.md"
+                "file": "duvidasDaniel.md"
               }
             }
           }
@@ -146,24 +146,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ade095c7bfa3925c",
+  "active": "752931e0e6e30200",
   "lastOpenFiles": [
-    "rnn.md",
+    "documentacaoGeral/linksuteis.md",
+    "documentacaoGeral/HowTo_BLASTGuide.pdf",
+    "documentacaoGeral/duvidasGPT.md",
+    "documentacaoGeral/functions.md",
+    "documentacaoGeral",
+    "documentacaoGeral/ensemble.md",
     "duvidasDaniel.md",
-    "linksuteis.md",
-    "HowTo_BLASTGuide.pdf",
-    "hmms.md",
-    "functions.md",
-    "ensemble.md",
-    "duvidasGPT.md",
-    "Iniciação Científica/Tasks IC.md",
-    "Iniciação Científica/Tasks IC 1.md",
+    "HMM/hmms.md",
+    "RNN/rnn.md",
+    "RNN/Tasks Gabriel.md",
+    "RNN/Tasks IC 1.md",
+    "RNN/TasksAriel.md",
+    "HMM/Tasks IC.md",
+    "01 - IC/Artigos/Accelerating materials language processing with large language models.md",
+    "01 - IC/Anotações.md",
+    "RNN",
+    "HMM",
     "Iniciação Científica2",
-    "Iniciação Científica/Artigos/Accelerating materials language processing with large language models.md",
-    "Iniciação Científica/Artigos",
-    "Iniciação Científica/Anotações.md",
-    "Iniciação Científica/TasksAriel.md",
-    "Iniciação Científica",
-    "Untitled"
+    "01 - IC/Artigos",
+    "01 - IC"
   ]
 }
