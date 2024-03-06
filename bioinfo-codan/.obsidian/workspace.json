@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Iniciação Científica/Tasks IC.md",
+                "file": "Iniciação Científica/Anotações.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Iniciação Científica/Tasks IC.md",
+                "file": "Iniciação Científica/Anotações.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Iniciação Científica/Tasks IC.md",
+                "file": "Iniciação Científica/Anotações.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Iniciação Científica/Tasks IC.md"
+                "file": "Iniciação Científica/Anotações.md"
               }
             }
           }
@@ -148,13 +148,21 @@
   },
   "active": "ade095c7bfa3925c",
   "lastOpenFiles": [
+    "rnn.md",
+    "duvidasDaniel.md",
+    "linksuteis.md",
+    "HowTo_BLASTGuide.pdf",
+    "hmms.md",
+    "functions.md",
+    "ensemble.md",
+    "duvidasGPT.md",
+    "Iniciação Científica/Tasks IC.md",
     "Iniciação Científica/Tasks IC 1.md",
     "Iniciação Científica2",
     "Iniciação Científica/Artigos/Accelerating materials language processing with large language models.md",
     "Iniciação Científica/Artigos",
     "Iniciação Científica/Anotações.md",
     "Iniciação Científica/TasksAriel.md",
-    "Iniciação Científica/Tasks IC.md",
     "Iniciação Científica",
     "Untitled"
   ]
