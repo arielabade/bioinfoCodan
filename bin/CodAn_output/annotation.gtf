@@ -1,3 +1,3 @@
-NC_073004.1	CodAn	start_codon	41475	41477	 -240579	+	0	gene_id "CodAn.1"; transcript_id "CodAn.1";
-NC_073004.1	CodAn	CDS	41475	43466	 -240579	+	0	gene_id "CodAn.1"; transcript_id "CodAn.1";
-NC_073004.1	CodAn	stop_codon	43467	43469	 -240579	+	0	gene_id "CodAn.1"; transcript_id "CodAn.1";
+U47924.1	CodAn	start_codon	35911	35913	 -299298	+	0	gene_id "CodAn.1"; transcript_id "CodAn.1";
+U47924.1	CodAn	CDS	35911	36945	 -299298	+	0	gene_id "CodAn.1"; transcript_id "CodAn.1";
+U47924.1	CodAn	stop_codon	36946	36948	 -299298	+	0	gene_id "CodAn.1"; transcript_id "CodAn.1";
