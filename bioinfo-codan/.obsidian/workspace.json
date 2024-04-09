@@ -59,7 +59,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 - Codan/Anotações.md",
+                "file": "duvidasDaniel.md",
                 "mode": "source",
                 "source": false
               }
@@ -132,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 - Codan/Anotações.md",
+                "file": "duvidasDaniel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 - Codan/Anotações.md",
+                "file": "duvidasDaniel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 - Codan/Anotações.md"
+                "file": "duvidasDaniel.md"
               }
             }
           }
@@ -195,8 +195,8 @@
   },
   "active": "0b25aa616d5c1447",
   "lastOpenFiles": [
-    "01 - Codan/functions.md",
     "01 - Codan/Anotações.md",
+    "01 - Codan/functions.md",
     "03 - Tasks/Tasks Ariel.md",
     "08 - Artigos/Notas Gerais - RNN + HMM.md",
     "08 - Artigos/Accelerating materials language processing with large language models.md",
