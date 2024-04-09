@@ -11,15 +11,62 @@
             "id": "752931e0e6e30200",
             "type": "leaf",
             "state": {
+              "type": "pdf",
+              "state": {
+                "file": "07 - Dados (Coleta, Armazenamento, Treino)/HowTo_BLASTGuide.pdf"
+              }
+            }
+          },
+          {
+            "id": "0265b01a1fc3d50a",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "duvidasDaniel.md",
+                "file": "02 - Machine Learning/duvidasGPT.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5a8c29a4401dde5f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 - Tasks/Tasks Ariel.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bee715b8767aabf7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "08 - Artigos/Accelerating materials language processing with large language models.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0b25aa616d5c1447",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 - Codan/Anotações.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -85,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "duvidasDaniel.md",
+                "file": "01 - Codan/Anotações.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "duvidasDaniel.md",
+                "file": "01 - Codan/Anotações.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "duvidasDaniel.md"
+                "file": "01 - Codan/Anotações.md"
               }
             }
           }
@@ -146,27 +193,39 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "752931e0e6e30200",
+  "active": "0b25aa616d5c1447",
   "lastOpenFiles": [
-    "documentacaoGeral/linksuteis.md",
-    "documentacaoGeral/HowTo_BLASTGuide.pdf",
-    "documentacaoGeral/duvidasGPT.md",
-    "documentacaoGeral/functions.md",
-    "documentacaoGeral",
-    "documentacaoGeral/ensemble.md",
+    "01 - Codan/functions.md",
+    "01 - Codan/Anotações.md",
+    "03 - Tasks/Tasks Ariel.md",
+    "08 - Artigos/Notas Gerais - RNN + HMM.md",
+    "08 - Artigos/Accelerating materials language processing with large language models.md",
+    "09 - Dúvidas/Dúvidas João.md",
+    "09 - Dúvidas/Dúvidas Gabriel.md",
+    "09 - Dúvidas/Dúvidas Ariel.md",
+    "03 - Tasks/Tasks Gabriel.md",
+    "02 - Machine Learning/duvidasGPT.md",
+    "09 - Dúvidas",
+    "02 - Machine Learning/ensemble.md",
+    "05 - HMM/Tasks IC.md",
+    "05 - HMM/How They Work.md",
+    "06 - RNN/LSTM, DNN, BRNN.md",
+    "Links Úteis.md",
+    "07 - Dados (Coleta, Armazenamento, Treino)/HowTo_BLASTGuide.pdf",
+    "02 - Machine Learning/linksuteis.md",
     "duvidasDaniel.md",
-    "HMM/hmms.md",
-    "RNN/rnn.md",
+    "07 - Dados (Coleta, Armazenamento, Treino)",
+    "04 - Notas/Joao",
+    "04 - Notas/Ariel",
+    "04 - Notas/Gabriel",
+    "04 - Notas",
+    "03 - Tasks/Tasks Joao.md",
     "RNN/Tasks Gabriel.md",
+    "03 - Tasks",
+    "02 - Machine Learning",
+    "RNN/rnn.md",
     "RNN/Tasks IC 1.md",
     "RNN/TasksAriel.md",
-    "HMM/Tasks IC.md",
-    "01 - IC/Artigos/Accelerating materials language processing with large language models.md",
-    "01 - IC/Anotações.md",
-    "RNN",
-    "HMM",
-    "Iniciação Científica2",
-    "01 - IC/Artigos",
-    "01 - IC"
+    "06 - RNN"
   ]
 }

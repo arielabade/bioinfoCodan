@@ -1,26 +1,9 @@
 
-
-
-## Work
-
-
-#### Prioridade 1
-
-1. [ ] Fazer makefile do CodAn (evitar ficar gastanddo tempo escrevendo código, rever o vídeo dos makefile com as entradas, saídas etc)
-2. [ ] Entender os formatos de entrada e sa´´iddas de dados
-3. [ ] Fazer um git copy no código do CodAn para entender como ele funciona e colocar meus comentários nele
-4. [ ] Agregar o roadmap e aprendizado de máquina do cara que é engenherio de machine learning aqui nesse curso
-#### Prioridade 2
-
-1. [ ] Estudar todas as funções em python do Codan para entender entradas e saídas
-#### Prioridade 3
-
-1. [ ] Entender como funciona o aprendizado de máquina utilizando bioperl
-2. [ ] Entender como funciona o processamento parelelo por trás do perl
-3. [ ] Me familiarizar com a sintaxe do perl
+### Especificações do Codan
 
 Links úteis:
 
+https://github.com/pedronachtigall
 
 #### Processamento Paralelo e Concorrente
 
@@ -69,10 +52,8 @@ Certamente! Aqui estão os links para a documentação das bibliotecas mencionad
    - os: [os - Miscellaneous operating system interfaces](https://docs.python.org/3/library/os.html)
 
 Certifique-se de consultar a documentação apropriada, dependendo da versão específica do Python 3 que você está usando.
-#### ChatGPT
 
-
-Entender e melhorar códigos existentes, especialmente quando se trata de bioinformática e análise de sequências de DNA, é uma tarefa desafiadora, mas pode ser muito recompensadora. Aqui está um roadmap geral para ajudá-lo a entender e potencialmente melhorar esses códigos:
+## Roadmap Iniciação Científica
 
 ### Roadmap:
 
@@ -120,9 +101,5 @@ Entender e melhorar códigos existentes, especialmente quando se trata de bioinf
    - Consulte colegas ou comunidades relevantes para obter insights adicionais.
 
 Lembre-se, a aplicação de aprendizado de máquina a problemas específicos pode exigir ajustes cuidadosos para garantir que os modelos sejam treinados e avaliados corretamente. O entendimento profundo do domínio biológico é fundamental.
-
-
-#### Codan
-
 
 
