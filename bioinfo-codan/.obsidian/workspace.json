@@ -59,7 +59,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "duvidasDaniel.md",
+                "file": "09 - Dúvidas/Dúvidas Ariel.md",
                 "mode": "source",
                 "source": false
               }
@@ -132,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "duvidasDaniel.md",
+                "file": "09 - Dúvidas/Dúvidas Ariel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "duvidasDaniel.md",
+                "file": "09 - Dúvidas/Dúvidas Ariel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "duvidasDaniel.md"
+                "file": "09 - Dúvidas/Dúvidas Ariel.md"
               }
             }
           }
@@ -195,15 +195,17 @@
   },
   "active": "0b25aa616d5c1447",
   "lastOpenFiles": [
+    "codons.jpg",
+    "03 - Tasks/Tasks Ariel.md",
+    "03 - Tasks/Tasks Gabriel.md",
+    "09 - Dúvidas/Dúvidas Ariel.md",
+    "duvidasDaniel.md",
     "01 - Codan/Anotações.md",
     "01 - Codan/functions.md",
-    "03 - Tasks/Tasks Ariel.md",
     "08 - Artigos/Notas Gerais - RNN + HMM.md",
     "08 - Artigos/Accelerating materials language processing with large language models.md",
     "09 - Dúvidas/Dúvidas João.md",
     "09 - Dúvidas/Dúvidas Gabriel.md",
-    "09 - Dúvidas/Dúvidas Ariel.md",
-    "03 - Tasks/Tasks Gabriel.md",
     "02 - Machine Learning/duvidasGPT.md",
     "09 - Dúvidas",
     "02 - Machine Learning/ensemble.md",
@@ -213,7 +215,6 @@
     "Links Úteis.md",
     "07 - Dados (Coleta, Armazenamento, Treino)/HowTo_BLASTGuide.pdf",
     "02 - Machine Learning/linksuteis.md",
-    "duvidasDaniel.md",
     "07 - Dados (Coleta, Armazenamento, Treino)",
     "04 - Notas/Joao",
     "04 - Notas/Ariel",
