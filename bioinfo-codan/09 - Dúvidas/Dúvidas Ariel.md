@@ -5,7 +5,7 @@
 
 ![[codons.jpg]]
 
-![image][https://github.com/arielabade/bioinfoCodan/blob/main/bioinfo-codan/codons.jpg]
+![image][bioinfo-codan/codons.jpg]
 ![Texto alternativo da imagem](caminho/para/a/imagem.jpg)
 - Existe alguma forma de pegar os pesos relacionados as HMMs e alocar nas RNNs?
 - Existe algum framework para implementar isso? (torch, pythorch, tensorflw)
