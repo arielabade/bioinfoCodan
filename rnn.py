@@ -27,7 +27,8 @@ def one_hot_encoding(sequences):
             onehot.append(vectors[base])
     return np.array(onehot)
 
-
+lens = [len(x) for x in sequences]
+print(lens)
 
 
 
