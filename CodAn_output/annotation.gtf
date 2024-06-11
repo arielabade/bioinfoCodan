@@ -1,0 +1,3 @@
+U47924.1	CodAn	start_codon	35911	35913	 -299298	+	0	gene_id "CodAn.1"; transcript_id "CodAn.1";
+U47924.1	CodAn	CDS	35911	36945	 -299298	+	0	gene_id "CodAn.1"; transcript_id "CodAn.1";
+U47924.1	CodAn	stop_codon	36946	36948	 -299298	+	0	gene_id "CodAn.1"; transcript_id "CodAn.1";

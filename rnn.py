@@ -5,6 +5,8 @@
 import tensorflow as tf
 import numpy as np
 from Bio import SeqIO
+import pandas as pd
+import matplotlib.pyplot as plt
 
 def fasta_to_list(file): # transforma os arquivos fasta em listas com as strings
     sequences = []
@@ -15,7 +17,7 @@ def fasta_to_list(file): # transforma os arquivos fasta em listas com as strings
             headers.append(record.id)
     return sequences, headers
 
-sequences, headers = fasta_to_list('./bin/models/VERT_full/dataset/train.fa') # exemplo qualquer para fins de teste
+#sequences, headers = fasta_to_list('./bin/models/VERT_full/dataset/train.fa') # exemplo qualquer para fins de teste
 
 
 # Abordagem one-hot vector: utiliza vetores binarios de 4 dimensoes para classificar as bases
@@ -27,8 +29,29 @@ def one_hot_encoding(sequences):
             onehot.append(vectors[base])
     return np.array(onehot)
 
-lens = [len(x) for x in sequences]
-print(lens)
+def binary_annotated_fasta(fasta_file, annotation_file):
+    #fasta_list = fasta_to_list(fasta_file)
+    annotation = pd.read_csv(annotation_file, sep='\t', header=None)
+    start_indexes = annotation[3].to_list()
+    end_indexes = annotation[4].to_list()
+
+    cds_regions = list(zip(start_indexes, end_indexes))
+        
+    fasta_binary = []
+
+    with open(fasta_file, 'r') as file:
+        genome = ''.join(line.strip() for line in file.readlines()[1:])
+
+    for i in range(len(genome)):
+        is_cds = any(start-1 <= i < end-1 for start, end in cds_regions)
+        fasta_binary.append('1' if is_cds else '0')
+    
+    binary_fasta_string = ''.join(fasta_binary)
+
+
+    return binary_fasta_string
+
+print(binary_annotated_fasta('genome.fasta', 'annotation.gtf'))
 
 
 
